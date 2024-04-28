@@ -40,12 +40,11 @@ body{
 .banner1,.banner2,.banner3{
         height:100vh;
         width:100%;
-        position: absolute;
         top:0;
         left:0;
     }
     img{
-        width: 1360px;
+        width: 1400px;
         position:absolute;
         left:-1%;
         top:17%;
