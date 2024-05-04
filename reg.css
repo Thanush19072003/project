@@ -1,0 +1,87 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    height:100%;
+    width:100%;
+    background-image:url('log.jpg');
+    background-size: cover;
+    position:absolute;
+}
+.hii{
+    position: absolute;
+    color:aquamarine;
+    top:50%;
+    left:50%;
+    transform:translate(-50% , -50%);
+    width:350px;
+
+}
+.hii h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin:40px 0;
+}
+.hii p{
+    font-size: 20px;
+    margin: 3px;
+}
+.hii input{
+    font-size: 16px;
+    padding: 10px 7px;
+    width:100%;
+    border:0%;
+    border-radius: 5px;
+    outline:none;
+}
+.hii button{
+    background-color:aqua;
+    font-size: 14px;
+    font-weight: bold;
+    margin:17px 0;
+    padding:12px 10px;
+    width:50%;
+    border: 0;
+    border-radius: 5px;
+}
+.hii button:hover{
+    color:darkblue;
+    cursor: pointer;
+}
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+  }
